@@ -29,7 +29,7 @@
 
 
 // Timer countdown logic
-const startDate = new Date('2023-04-16T23:30:00');
+const startDate = new Date('2025-02-14T00:00:00');
 
 function updateTimer() {
     const now = new Date();
@@ -64,12 +64,13 @@ updateTimer();
 
 // Songs list
 const songs = [
+  ["ja-n6my6rKQ", "Beautiful", "Akon"],
   ["igiw3JVBATg", "A Sky Full of Stars", "Coldplay"],
   ["v27COkZT4GY", "Car's Outside", "James Arthur"],
   ["4lqYdS-Ell8", "Look After You", "The Fray"],
   ["1B34kyJ84ac", "Cupid's Chokehold", "Gym Class Heroes"],
   ["bBC7sPywo2M", "Yellow", "Coldplay"],
-  ["7FrLlfWe_SI", "Sparks (Live)", "Coldplay"],
+  ["7FrLlfWe_SI", "Sparks", "Coldplay"],
 ];
   // Add more songs here
 
@@ -94,7 +95,15 @@ songs.forEach(([id, title, artist]) => {
 
 // 100 things I love about you
 const texts = [
-"Your Smile", "Your Eyes", "Your Laughter", "Your Kindness","Etc..."
+"Your Smile", "Your Eyes", "Your Laughter Lights up my day", "Your Kindness", "Your Warm Hugs",
+"Your Voice", "Your Thoughtfulness", "Your Passion", "Your Honesty", "Your Warmth", "Your Playfulness", "Your Courage", "You're Intelligence", 
+"Your Supportive Nature", "Your Understanding", "Your Strength", "Your Beauty", "Your Quirks",,
+"Your Generosity", "Your Patience", "Your Strength", "Your Creativity", "Your Optimism", "Your Silliness",
+"Your Determination", "Your Compassion", "Your Loyalty", "Your Confidence", "Your Humor", "Your Encouragement",
+"Your Support", "Your Touch", "Your Wisdom", "Your Spontaneity", "Your Adventurous Spirit", "Your Positivity",
+"Your Uniqueness", "Your Sensitivity", "Your Ambition", "Your Flaws", "Your Imperfections", "Your Authenticity",
+"Your Energy", "Your Romance", "Your Dedication", "Your Resilience", "Your Curiosity", "Your Style", "Your Presence",
+"Your Heart", "Your Dreams", "Your Vulnerability", "Your Trust", "Your Love", "Just You"
 ];
 
 const list = document.getElementById('things-list');
