@@ -481,7 +481,7 @@ footer {
     }
 .song {
     width: 50vw;
-    height: 40vw;
+    height: 50vw;
     flex: 0 0 100%;
 }
 .songs-box h1 {
@@ -502,9 +502,9 @@ footer {
     padding: 6vw 3.5vw;
 }
 .things-box h2 {
-    font-size: 18px;
+    font-size: 20px;
 }
 .things-box p.subtitle {
-    font-size: 12px;
+    font-size: 10px;
 }
 }
